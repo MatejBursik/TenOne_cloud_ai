@@ -1,6 +1,13 @@
 # Data
+data/after_2016_policy.parquet
+data/after_2008_crisis.parquet
+data/outliers.parquet
 data/initial_cleaning.parquet
 data/price_paid_records.csv
+
+# Logs
+/mlruns
+logs.log
 
 # Additional files
 testing.ipynb

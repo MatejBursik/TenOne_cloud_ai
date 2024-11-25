@@ -3,7 +3,7 @@
 ## Working order for data cleaning
 1) initial_cleaning.ipynb
 2) outliers.ipynb
-3) ...
+3) date_of_transfer.ipynb
 
 ## Data source
 [Link](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid/data)

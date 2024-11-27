@@ -1,9 +1,26 @@
 # UK Housing
 
-## Working order for data cleaning
+## AWS
+In the folder AWS, you can find inforamtion about what tasks were performed in the AWS environment. [Read more...](aws/README.md)
+
+## Working order for EDA and data cleaning
+All the finalized data cleaning processes can be found in final_cleaning.ipynb with no EDA
+
 1) initial_cleaning.ipynb
+
+    asdf
+
 2) outliers.ipynb
-3) date_of_transfer.ipynb
+
+    EDA and cleaning of the outliers in 'property_type', 'is_new', 'duration', and 'ppdcategory_type' after the initial cleaning.
+
+3) price.ipynb
+
+    Exploring correlations and outliers about the price.
+
+4) date_of_transfer.ipynb and forcasting_data.ipynb
+
+    These notebooks explore 'date_of_transfer' and forcasting data. Base on the exploration, they create final specialized datasets for different experiments and use cases.
 
 ## Data source
 [Link](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid/data)

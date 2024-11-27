@@ -1,10 +1,13 @@
 # UK Housing
 
+## Models
+I started with the basics, so I aimed to predict the price of a property based on certain varaibles like date_of_transfer, property_type, is_new, duration, city, district, county, and ppdcategory_type. Then I got inspired by the Stock_prices part of the project to make a forcasting model. I aimed to forcast the price of Terraced (property_type = T) properties in 3 specific cities for example OLDHAM, GRAYS, and HIGHBRIDGE. [Read more...](models/README.md)
+
 ## AWS
 In the folder AWS, you can find inforamtion about what tasks were performed in the AWS environment. [Read more...](aws/README.md)
 
 ## Working order for EDA and data cleaning
-All the finalized data cleaning processes can be found in final_cleaning.ipynb with no EDA
+All the finalized data cleaning processes can be found in final_cleaning.ipynb with no EDA.
 
 1) initial_cleaning.ipynb
 
@@ -24,7 +27,7 @@ All the finalized data cleaning processes can be found in final_cleaning.ipynb w
 
 ## Data source
 [Link](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid/data)
-Due to the size of the file being 2.24 GB, I decided to gitignore the file
+Due to the size of the file being 2.24 GB, I decided to gitignore the file.
 
 ## Data information from the source
 

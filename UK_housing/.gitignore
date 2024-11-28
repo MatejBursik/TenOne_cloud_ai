@@ -8,8 +8,8 @@ data/price_paid_records.parquet
 data/price_paid_records.csv
 
 # Logs
-/mlruns
-logs.log
+models/mlruns
+models/logs.log
 
 # Additional files
 testing.ipynb

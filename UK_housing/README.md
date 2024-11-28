@@ -1,7 +1,7 @@
-# UK Housing
+# UK Housing dataset
 
 ## Models
-I started with the basics, so I aimed to predict the price of a property based on certain varaibles like date_of_transfer, property_type, is_new, duration, city, district, county, and ppdcategory_type. Then I got inspired by the Stock_prices part of the project to make a forcasting model. I aimed to forcast the price of Terraced (property_type = T) properties in 3 specific cities for example OLDHAM, GRAYS, and HIGHBRIDGE. [Read more...](models/README.md)
+I started with the basics, so I aimed to predict the price of a property based on certain varaibles like date_of_transfer, property_type, is_new, duration, city, district, county, and ppdcategory_type. Then I got inspired by the Stock_prices part of the project to make a forecasting model. I aimed to forecast the price of Terraced (property_type = T) properties in London (city = LONDON). [Read more...](models/README.md)
 
 ## AWS
 In the folder AWS, you can find inforamtion about what tasks were performed in the AWS environment. [Read more...](aws/README.md)
@@ -11,7 +11,7 @@ All the finalized data cleaning processes can be found in final_cleaning.ipynb w
 
 1) initial_cleaning.ipynb
 
-    asdf
+    Simple cleaning of the downloaded dataset. Performing actions like renaming columns, identifying null values, and investigating categorical data.
 
 2) outliers.ipynb
 
@@ -21,9 +21,9 @@ All the finalized data cleaning processes can be found in final_cleaning.ipynb w
 
     Exploring correlations and outliers about the price.
 
-4) date_of_transfer.ipynb and forcasting_data.ipynb
+4) date_of_transfer.ipynb and forecasting_data.ipynb
 
-    These notebooks explore 'date_of_transfer' and forcasting data. Base on the exploration, they create final specialized datasets for different experiments and use cases.
+    These notebooks explore 'date_of_transfer' and forecasting data. Base on the exploration, they create final specialized datasets for different experiments and use cases.
 
 ## Data source
 [Link](https://www.kaggle.com/datasets/hm-land-registry/uk-housing-prices-paid/data)
